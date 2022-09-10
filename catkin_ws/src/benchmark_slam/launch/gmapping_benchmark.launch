@@ -1,0 +1,18 @@
+<launch> 
+
+   <arg name="rosbag_file" default="/home/abc/Downloads/gmapping_1_big.bag"/>
+
+   <node pkg="rosbag" type="play" name="player" args="-r 1 $(arg rosbag_file)"/>
+   <node pkg="rqt_plot" type="rqt_plot" name="rqt_plot" args="current_rmse current_distance_error"/>
+
+   <node pkg="benchmark_slam" type="benchmark.py" name="benchmark" output="screen">
+      <param name="world_frame" value="pozyx"/>
+      <param name="slam_pose_frame" value="base_footprint"/>
+      <param name="pozyx_topic" value="pozyx_cordinates"/>
+      <param name="delta_heading" value="0"/>
+   </node>
+
+   <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find benchmark_slam)/rviz/benchmark.rviz"/>
+
+</launch>

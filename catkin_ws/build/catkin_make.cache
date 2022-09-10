@@ -1,0 +1,2 @@
+benchmark_slam
+-DCATKIN_DEVEL_PREFIX=/home/abc/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/abc/catkin_ws/install -G Unix Makefiles
