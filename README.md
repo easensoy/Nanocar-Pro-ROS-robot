@@ -18,6 +18,10 @@ There is a topic called “location” that is published and subscribed to by RO
 
 Root mean squared error (RMSE) is the square root of the mean of the square of all of the error. The use of RMSE is very common, and it is considered an excellent general purpose error metric for numerical predictions. As for objective of the project, RMSE error was taken a as a criteria in order to evaluate the accuracy of SLAM algorithm with respect to localisation.
 
+# Testing Environment
+![Working Environment](https://user-images.githubusercontent.com/76905667/200177479-8722a2d8-1d95-4a47-89ff-0b6276f36693.jpg)
+
+
 ## The positioning benchmark between LiDAR-based GMapping and Pozyx in RViz
 
 ### RViz Illustration
