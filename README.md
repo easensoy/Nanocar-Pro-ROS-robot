@@ -21,6 +21,12 @@ Root mean squared error (RMSE) is the square root of the mean of the square of a
 # Testing Environment
 ![Working Environment](https://user-images.githubusercontent.com/76905667/200177479-8722a2d8-1d95-4a47-89ff-0b6276f36693.jpg)
 
+#
+
+# Rosbag Recording for GMapping
+
+![gmapping](https://github.com/easensoy/Nanocar-Pro-ROS-robot/assets/76905667/1d770faf-07fe-4d74-87b8-86a293c92551)
+
 
 ## The positioning benchmark between LiDAR-based GMapping and Pozyx in RViz
 The UWB_ONLY algorithm works purely on the UWB signals without taking any predictions of movement into account.
