@@ -31,6 +31,7 @@ Root mean squared error (RMSE) is the square root of the mean of the square of a
 ## The positioning benchmark between LiDAR-based GMapping and Pozyx in RViz
 The UWB_ONLY algorithm works purely on the UWB signals without taking any predictions of movement into account.
 ### RViz Illustration
+The estimated location via LiDAR-SLAM (GMapping) displayed as green whereas the ground truth Pozyx displayed as red. 
 ![gmapping_1_rviz](https://user-images.githubusercontent.com/76905667/199630389-1ea8b61e-38a7-4d7c-be8e-1b131ccbff6d.png)
 
 ### Rqt_plot
